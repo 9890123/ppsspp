@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Common.h" />
     <ClInclude Include="CommonWindows.h" />
     <ClInclude Include="Log.h" />
   </ItemGroup>
