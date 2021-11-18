@@ -10,6 +10,7 @@
     <ClInclude Include="CommonWindows.h" />
     <ClInclude Include="Log.h" />
     <ClInclude Include="Common.h" />
+    <ClInclude Include="CommonTypes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Log.cpp" />
