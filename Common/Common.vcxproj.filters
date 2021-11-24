@@ -11,6 +11,7 @@
     <ClInclude Include="Log.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="CommonTypes.h" />
+    <ClInclude Include="CommonFuncs.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Log.cpp" />
