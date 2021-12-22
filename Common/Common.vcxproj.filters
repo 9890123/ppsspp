@@ -5,6 +5,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{b478f48b-9827-435a-b276-f4012ea825dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Encoding">
+      <UniqueIdentifier>{5bbeab35-2fd2-428f-86a5-30d699db005f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonWindows.h" />
@@ -12,8 +18,13 @@
     <ClInclude Include="Common.h" />
     <ClInclude Include="CommonTypes.h" />
     <ClInclude Include="CommonFuncs.h" />
+    <ClInclude Include="StringUtils.h" />
+    <ClInclude Include="Data\Utf8.h">
+      <Filter>Data\Encoding</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Log.cpp" />
+    <ClCompile Include="StringUtils.cpp" />
   </ItemGroup>
 </Project>
