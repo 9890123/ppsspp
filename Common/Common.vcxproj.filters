@@ -19,12 +19,19 @@
     <ClInclude Include="CommonTypes.h" />
     <ClInclude Include="CommonFuncs.h" />
     <ClInclude Include="StringUtils.h" />
-    <ClInclude Include="Data\Utf8.h">
+    <ClInclude Include="Data\Encoding\Utf8.h">
       <Filter>Data\Encoding</Filter>
     </ClInclude>
+    <ClInclude Include="Data\Encoding\Utf16.h">
+      <Filter>Data\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="BitSet.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Log.cpp" />
     <ClCompile Include="StringUtils.cpp" />
+    <ClCompile Include="Data\Encoding\Utf8.cpp">
+      <Filter>Data\Encoding</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -121,6 +121,8 @@ __attribute__((format(printf, 5, 6)))
 #define _dbg_assert_msg_(_a_, _desc_, ...) {}
 #endif
 
+#endif
+
 #define _assert_(_a_) \
 	if (!(_a_)) { \
 		if (!HandleAssert(__FUNCTION__, __FILENAME__, __LINE__, #_a_, "*** Assertion ***\n")) Crash(); \
@@ -131,6 +133,5 @@ __attribute__((format(printf, 5, 6)))
 		if (!HandleAssert(__FUNCTION__, __FILENAME__, __LINE__, #_a_, __VA_ARGS__)) Crash(); \
 	}
 
-void OutputDebugStringUTF8(const char *p);
+void OutputDebugStringUTF8(const char* p);
 
-#endif
